@@ -1,5 +1,5 @@
 {
-  "name": "discord.js-selfbot-alex_example",
+  "name": "alex-selfbot_example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js-selfbot-alex": "^1.5.0"
+    "alex-selfbot": "^1.5.0"
   }
 }

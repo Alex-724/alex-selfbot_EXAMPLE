@@ -1,4 +1,4 @@
-const client = require('discord.js-selfbot-alex');
+const client = require('alex-selfbot');
 // you can online more than 100 account in one host
 client.start({
     token: "false", // You must type account token here
