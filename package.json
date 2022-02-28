@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js-selfbot-alex": "^1.2.8"
+    "discord.js-selfbot-alex": "^1.5.0"
   }
 }

@@ -25,6 +25,5 @@ Alex.start({
 const Alex = require('discord.js-selfbot-alex');
 Alex.setStatus("idle");
 Alex.joinVoice("12345678");
-Alex.mute("true");
 Alex.login(token);
 ```
