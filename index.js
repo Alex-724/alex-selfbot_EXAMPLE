@@ -1,6 +1,8 @@
-const client = require('alex-selfbot');
+const Alex = require('alex-selfbot');
 // you can online more than 100 account in one host
-client.start({
+const { start } = Alex;
+
+start({
     token: "false", // You must type account token here
     status: "idle", // You need to type account statues here if you don't need type "false"
     channel_id: "12345678", // You need to type voice channel id here if you don't need type "false"
@@ -8,7 +10,7 @@ client.start({
     def: "true" // you can add self defend if you don't need type "false"
 });
 
-client.start({
+start({
     token: "false", // You must type account token here
     status: "dnd", // You need to type account statues here if you don't need type "false"
     channel_id: "12345678", // You need to type voice channel id here if you don't need type "false"
