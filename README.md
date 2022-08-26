@@ -1,3 +1,8 @@
+## note
+```txt
+The next update well be added after 10 star
+```
+
 ## Installation
 ```txt
 npm i alex-selfbot
