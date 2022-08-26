@@ -1,4 +1,4 @@
-## note
+## Note
 ```txt
 The next update well be added after 10 star
 ```
