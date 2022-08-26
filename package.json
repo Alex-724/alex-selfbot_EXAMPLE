@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "alex-selfbot": "^1.5.0"
+    "alex-selfbot": "^1.6.9"
   }
 }
