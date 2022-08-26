@@ -1,19 +1,19 @@
-const Alex = require('alex-selfbot');
-// you can online more than 100 account in one host
-const { start } = Alex;
-
-start({
-    token: "false", // You must type account token here
-    status: "idle", // You need to type account statues here if you don't need type "false"
-    channel_id: "12345678", // You need to type voice channel id here if you don't need type "false"
-    mute: "true", // you can add self mute if you don't need type "false"
-    def: "true" // you can add self defend if you don't need type "false"
+const Alex = require("alex-selfbot");
+// Code Demo
+// First account
+const alex = new Alex();
+alex.login(token); // You must type account token here
+alex.status("idle"); // you have to choose statues between [dnd, idle, online]
+alex.joinChannel("channelId", {
+  mute: true, // you can add self mute
+  def: true, // you can add self def
 });
 
-start({
-    token: "false", // You must type account token here
-    status: "dnd", // You need to type account statues here if you don't need type "false"
-    channel_id: "12345678", // You need to type voice channel id here if you don't need type "false"
-    mute: "true", // you can add self mute if you don't need type "false"
-    def: "false" // you can add self defend if you don't need type "false"
+// Second account
+const alex2 = new Alex();
+alex2.login(token); // You must type account token here
+alex2.status("idle"); // you have to choose statues between [dnd, idle, online]
+alex2.joinChannel("channelId", {
+  mute: true, // you can add self mute
+  def: true, // you can add self def
 });
